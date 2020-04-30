@@ -74,8 +74,36 @@ import { JsonSchemaComponent } from './shared-components/json-schema/json-schema
     MarkdownModule.forRoot(),
     PortalModule,
     OverlayModule,
-    AceModule
+    AceModule,
   ],
-  exports: [OpenapiViewerComponent, OperationComponent]
+  exports: [
+    OpenapiViewerComponent,
+    OperationComponent,
+    ParameterComponent,
+    ResponsesComponent,
+    MultiItemsInputComponent,
+    RequestsListComponent,
+    RequestViewComponent,
+    OpenableDirective,
+    MethodHeaderComponent,
+    MethodComponent,
+    IndexNavComponent,
+    OperationViewComponent,
+    OverviewViewComponent,
+    TabNavComponent,
+    TabNavItemDirective,
+    TemplateOutletComponent,
+    RequestBodyInputComponent,
+    AuthenticationViewComponent,
+    AuthCredentialsComponent,
+    AuthStatusComponent,
+    TooltipComponent,
+    TooltipDirective,
+    CodeInputComponent,
+    IndexNavEndpointsComponent,
+    OverviewViewEndpointsComponent,
+    ModelsViewComponent,
+    JsonSchemaComponent,
+  ]
 })
 export class OpenapiViewerModule {}
